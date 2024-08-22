@@ -1,0 +1,85 @@
+
+
+ /* General Navigation Styles */
+nav {
+    padding: 10px 20px; 
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 75px; 
+}
+
+/* Left Side (Logo and Menu) */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left .menu-icon {
+    width: 30px;  
+    margin-right: 25px;
+    cursor: pointer; }
+
+.nav-left .logo {
+    width: 80px;
+   }
+.nav-left h2{
+    color:rgb(14, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    
+}
+/* Middle (Search Box) */
+.nav-middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-middle .search-box {
+    display: flex;
+    align-items: center;
+    background: #F0F0F0; 
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nav-middle .search-box input {
+    width: 400px;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background:transparent;
+    font-size: 14px;
+    outline: 0;
+}
+
+.nav-middle .search-box img {
+    width: 20px; 
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* Right Side (Icons) */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right img {
+    width: 25px; 
+    margin-right: 25px;
+    cursor: pointer; 
+}
+
+.nav-right .user-icon{
+    width: 25px;
+    border-radius: 50px;
+}
+
